@@ -9,9 +9,7 @@ const Header = () => {
             <img src='logo_vegeta777_neon_web.png' alt='logo_vegeta777' className='logo_vegeta777'></img>
         </div>
         <Link to={"/register"} className='register'>
-        <div>
         <button className='register_button'>Regístrate</button>
-        </div>
         </Link>
     </div>
   )

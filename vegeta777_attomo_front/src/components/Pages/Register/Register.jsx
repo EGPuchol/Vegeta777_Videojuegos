@@ -2,6 +2,9 @@ import React from "react";
 import "./Register.css";
 import { Link } from "react-router-dom";
 
+// ##TODO: LÓGICA REGISTO + LÓGICA LOG IN
+
+
 const Register = () => {
   return (
     <div class="section">

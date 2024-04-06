@@ -11,7 +11,6 @@ const SeccionVideojuegos = () => {
   const [ordenVotosAscendente, setOrdenVotosAscendente] = useState(true);
 
   useEffect(() => {
-    // Extraer categorías únicas de los videojuegos
     const categoriasUnicas = [...new Set(videojuegos.map(videojuego => videojuego.categoria))];
     setCategorias(["Todas", ...categoriasUnicas]);
   }, [videojuegos]);

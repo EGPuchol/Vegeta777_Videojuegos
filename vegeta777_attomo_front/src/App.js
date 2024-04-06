@@ -6,7 +6,7 @@ import Register from "./components/Pages/Register/Register";
 
 function App() {
   return (
-    <Router> {/* Aquí envolvemos nuestra aplicación con el componente Router */}
+    <Router> 
       <VideojuegosProvider>
         <Routes>
           <Route path="/" element={<SeccionVideojuegos />} />

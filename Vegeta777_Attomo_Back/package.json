@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon script.js",
     "start": "node script.js",
-    "videojuego-seed": "node ./src/seeds/videojuegos.seeds.js"
+    "videojuego-seed": "node ./src/seeds/videojuegos.seeds.js",
+    "usuarios-seed":"node ./src/seeds/usuarios.seeds.js"
   },
   "keywords": [],
   "author": "",

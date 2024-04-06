@@ -6,6 +6,7 @@ dotenv.config();
 const { connect } = require("./src/utils/db");
 
 const videojuegosRoutes = require("./src/api/routes/videojuegos.routes");
+const usuariosRoutes = require("./src/api/routes/usuarios.routes")
 
 const PORT = process.env.PORT;
 
@@ -19,6 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use("/", videojuegosRoutes);
+app.use("/usuarios", usuariosRoutes)
 
 app.listen(PORT, () =>
     console.log(`Escuchando en el puerto http://localhost:${PORT}`)

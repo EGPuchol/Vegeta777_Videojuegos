@@ -1,26 +1,22 @@
-/* .header{
-    background-color: #272727;
-    border-bottom: 2px solid red;
-} */
 
 .header {
     background-color: #272727;
-    position: relative; /* Agregamos posición relativa para que el pseudo-elemento esté posicionado correctamente */
-    overflow: hidden; /* Evita que el efecto de neón se desborde */
+    position: relative; 
+    overflow: hidden; 
   }
   
   .header::after {
     content: '';
     position: absolute;
-    bottom: -5px; /* Ajusta la posición del borde neon */
+    bottom: -5px; 
     left: 0;
     width: 100%;
-    height: 3px; /* Altura del borde neon */
-    background: linear-gradient(to right, #ff00ff, #ff00ff); /* Gradiente de color rosado neon */
-    border-radius: 5px; /* Radio de borde para redondear los extremos */
-    box-shadow: 0px 0px 10px #ff00ff, 0px 0px 20px #ff00ff, 0px 0px 30px #ff00ff, 0px 0px 40px #ff00ff, 0px 0px 70px #ff00ff, 0px 0px 80px #ff00ff, 0px 0px 100px #ff00ff, 0px 0px 150px #ff00ff; /* Sombras para el efecto de neón */
-    z-index: 1; /* Asegura que el pseudo-elemento esté sobre el contenido */
-    animation: neon-glow 1.5s infinite alternate; /* Animación para el efecto de brillo */
+    height: 3px;
+    background: linear-gradient(to right, #ff00ff, #ff00ff); 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px #ff00ff, 0px 0px 20px #ff00ff, 0px 0px 30px #ff00ff, 0px 0px 40px #ff00ff, 0px 0px 70px #ff00ff, 0px 0px 80px #ff00ff, 0px 0px 100px #ff00ff, 0px 0px 150px #ff00ff; 
+    z-index: 1; 
+    animation: neon-glow 1.5s infinite alternate; 
   }
   
   @keyframes neon-glow {
@@ -45,19 +41,19 @@
 }
 
 .register{
-  width: 100%;
-  height: 100%;
+  width: 8%;
+  height: 32%;
   display: flex;
   justify-content: flex-end;
-  margin-left: -30px;
+  margin-left: 0px;
   margin-bottom: 30px;
   position: absolute;
   top: 20px;
 }
 
 .register_button{
-    width: 115px;
-    height: 32px;
+    width: 110px;
+    height: 30px;
     cursor: pointer;
     color: #fff;
     font-size: 17px;
