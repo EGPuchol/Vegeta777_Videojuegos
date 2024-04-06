@@ -1,0 +1,27 @@
+{
+  "name": "vegeta777_attomo_back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon script.js",
+    "start": "node script.js",
+    "videojuego-seed": "node ./src/seeds/videojuegos.seeds.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.0",
+    "node": "^18.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "description": ""
+}

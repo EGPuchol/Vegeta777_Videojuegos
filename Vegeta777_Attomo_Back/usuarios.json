@@ -1,0 +1,23 @@
+[
+    {
+      "nombre": "usuario1",
+      "contraseña": "contraseña1"
+    },
+    {
+      "nombre": "usuario2",
+      "contraseña": "contraseña2"
+    },
+    {
+      "nombre": "usuario3",
+      "contraseña": "contraseña3"
+    },
+    {
+      "nombre": "usuario4",
+      "contraseña": "contraseña4"
+    },
+    {
+      "nombre": "usuario5",
+      "contraseña": "contraseña5"
+    }
+  ]
+  
